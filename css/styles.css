@@ -1,0 +1,198 @@
+
+body, li {
+  font-family: 'Montserrat', sans-serif;
+  text-align: center;
+}
+
+h1, h2, h3, h4 {
+  font-family: 'Lilita One', cursive;
+}
+
+p {
+  color: #8f8f8f;
+}
+
+/* Headings */
+
+.big-heading {
+  font-size: 3.5rem;
+  line-height: 1.5;
+}
+
+.section-heading {
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+/* Title Page */
+
+#title {
+  background-color: #ff4c68;
+  color: #fff;
+  text-align: left;
+}
+
+#title .container-fluid {
+  padding: 3% 15% 7%;
+}
+
+.the-buttons {
+  margin: 7% 5% 7% 0;
+}
+
+.upper-text {
+  color: #ffffff;
+}
+
+.container-fluid {
+  padding: 7% 15%;
+}
+
+.iphone-image {
+  transform: rotate(25deg);
+  width: 60%;
+  position: absolute;
+  right: 30%;
+}
+
+.navbar-brand {
+  font-family: 'Ubuntu', sans-serif;
+  color: #fff;
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+
+.navbar-brand:hover {
+  color: #fff;
+}
+
+.navbar {
+  padding-bottom: 4.5rem;
+}
+
+.nav-item {
+  padding: 0 18px;
+}
+
+.nav-link {
+  color: #fff;
+  font-family: 'Ubuntu', sans-serif;
+  font-size: 1.1rem
+}
+
+.nav-link:hover {
+  color: #ef8172;
+}
+
+/* Features */
+
+#features {
+  background-color: #fff;
+  position: relative;
+}
+
+.feature-title {
+  font-size: 1.5rem;
+}
+
+.feature-box {
+  padding: 4.5%;
+}
+
+.icon {
+  color: #ef8172;
+  margin-bottom: 1rem;
+}
+
+.icon:hover {
+  color: #ff4c68;
+}
+
+/* Testimonials */
+
+#testimonials {
+  background-color: #ef8172;
+  color: #fff;
+}
+
+.testimonial-text {
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+.testimonial-image {
+  width: 10%;
+  border-radius: 100%;
+  margin: 20px;
+}
+
+#press {
+  background-color: #ef8172;
+  padding-bottom: 3%;
+}
+
+.press-logo {
+  width: 15%;
+  margin: 20px 20px 50px;
+}
+
+/* Pricing */
+
+.pricing-head {
+  margin-top: 5%;
+}
+
+.price-text {
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+.button-price {
+  padding: .5rem 1rem;
+  line-height: 1.5;
+  border-radius: .3rem;
+  background-color: #ff4c68;
+}
+
+.button-price:hover {
+  background-color: #ef8172;
+}
+
+/* Call To Action */
+
+#cta {
+  background-color: #ff4c68;
+  color: #fff;
+}
+
+/* Footer */
+
+#footer {
+  background-color: #fff;
+}
+
+.social-icon {
+  margin: 20px 10px;
+  color: #ef8172;
+}
+
+.social-icon:hover {
+  color: #ff4c68;
+}
+
+.copyright {
+  padding-top: 5%;
+}
+
+/* Changes In Media */
+
+@media (max-width: 1028px) {
+  #title {
+    text-align: center;
+  }
+
+  #iphone {
+    position: static;
+    transform: rotate(0);
+  }
+}
